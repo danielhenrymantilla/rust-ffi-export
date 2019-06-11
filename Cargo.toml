@@ -1,0 +1,12 @@
+[package]
+name = "ffi-export"
+version = "0.1.0"
+authors = ["Daniel Henry-Mantilla <daniel.henry.mantilla@gmail.com>"]
+edition = "2018"
+
+description = "A proc macro attribute to export Rust functions to FFI more easily"
+license = "MIT"
+
+[dependencies]
+ffi-export-proc-macro = { version = "0.1.0", path = "proc-macro" }
+
